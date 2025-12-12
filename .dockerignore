@@ -1,0 +1,56 @@
+.git
+.gitignore
+
+# Python 캐시/가상환경
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# 환경 변수 파일
+.env
+.env.*
+
+# 빌드/배포 산출물
+dist/
+build/
+
+# Node/프론트엔드
+node_modules/
+frontend/node_modules/
+dist/
+out/
+release/
+*.asar
+*.asar.unpacked/
+builder-debug.yml
+builder-effective-config.yaml
+.electron-builder/
+.cache/electron/
+.cache/electron-builder/
+
+# 대용량/런타임 생성 데이터
+backend/chroma_db/
+backend/data/
+backend/logs/
+backend/output/
+backend/internal_docs/uploads/
+backend/internal_docs/processed/
+backend/councel/cache/
+backend/councel/dataset/
+backend/councel/vector_db/
+data/
+logs/
+output/
+chroma_db/
+
+# 기타
+*.log
+

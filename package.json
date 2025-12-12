@@ -9,6 +9,7 @@
     "start:backend": "python assistant.py",
     "start:dev": "concurrently \"npm run start:backend\" \"npm run start:electron\"",
     "start:electron": "electron .",
+    "dist": "electron-builder --win nsis",
     "postinstall": "echo Done"            
   },
   "repository": {
@@ -25,6 +26,31 @@
   "devDependencies": {
     "concurrently": "^8.2.2",
     "electron": "^39.1.2",
+    "electron-builder": "^24.13.3",
     "wait-on": "^8.0.0"
+  },
+  "build": {
+    "appId": "com.virtual.assistant",
+    "productName": "Virtual Assistant",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "renderer/**/*",
+      "frontend/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
   }
 }

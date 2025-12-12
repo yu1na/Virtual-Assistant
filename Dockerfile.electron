@@ -1,0 +1,17 @@
+# syntax=docker/dockerfile:1
+
+# Electron 윈도우 타깃 빌드를 위한 wine 포함 이미지
+FROM electronuserland/builder:wine
+
+WORKDIR /project
+
+# 의존성 캐시 분리
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# 소스 복사
+COPY . .
+
+# 기본 빌드 커맨드 (윈도우 NSIS)
+CMD ["npm", "run", "dist", "--", "--win", "nsis"]
+
