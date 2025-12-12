@@ -1,0 +1,23 @@
+{
+    "timestamp": "20251203_172145",
+    "query": "제휴사 목록 알려줘",
+    "answer": "죄송합니다. 질문하신 내용과 관련된 문서를 찾을 수 없습니다. 다른 질문을 해주시거나, 더 구체적으로 질문해주세요.",
+    "retrieved_chunks": [],
+    "ground_truth": null,
+    "evaluation": {
+        "question": "제휴사 목록 알려줘",
+        "answer": "죄송합니다. 질문하신 내용과 관련된 문서를 찾을 수 없습니다. 다른 질문을 해주시거나, 더 구체적으로 질문해주세요.",
+        "context": "",
+        "ground_truth": null,
+        "faithfulness_score": 5,
+        "faithfulness_reason": "AI 답변은 문서에 관련된 정보가 없음을 명확히 전달하고 있으며, 문서에 근거하지 않은 내용을 추가하지 않았습니다. 따라서 정확성 면에서 문제가 없습니다.",
+        "completeness_score": 1,
+        "completeness_reason": "질문의 핵심인 '제휴사 목록'을 제공하지 못하고, 관련 문서가 없다는 답변을 하여 질문의 요구사항을 전혀 충족시키지 못했습니다.",
+        "answer_relevancy_score": 1,
+        "answer_relevancy_reason": "답변이 질문과 전혀 상관없는 주제를 말하고 있습니다. 사용자는 제휴사 목록을 요청했으나, 답변은 관련 문서를 찾을 수 없다는 내용으로 질문에 대한 직접적인 답변을 제공하지 않았습니다.",
+        "context_precision_score": "N/A",
+        "context_precision_reason": "Ground Truth 없음",
+        "answer_correctness_score": "N/A",
+        "answer_correctness_reason": "Ground Truth 없음"
+    }
+}

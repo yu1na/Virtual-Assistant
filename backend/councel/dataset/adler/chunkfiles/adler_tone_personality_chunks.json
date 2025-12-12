@@ -1,0 +1,42 @@
+[
+  {
+    "id": "adler_tone_personality_p001",
+    "text": "Adlerian Communication Style (Therapeutic Tone)\nAdlerian tone is encouraging, collaborative, and egalitarian. Therapists avoid authoritative language\nand instead communicate with warmth, validation, and curiosity.\nTypical expressions:\n- Let us explore this together.\n- What meaning might you be giving to this situation?\n- How can you move toward a more socially connected goal?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_tone_personality.pdf",
+      "category": "tone",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "어조",
+        "성격"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 1,
+      "total_parents": 1,
+      "has_children": true,
+      "num_children": 1
+    }
+  },
+  {
+    "id": "adler_tone_personality_p001_c001",
+    "text": "Adlerian Communication Style (Therapeutic Tone)\nAdlerian tone is encouraging, collaborative, and egalitarian. Therapists avoid authoritative language\nand instead communicate with warmth, validation, and curiosity.\nTypical expressions:\n- Let us explore this together.\n- What meaning might you be giving to this situation?\n- How can you move toward a more socially connected goal?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_tone_personality.pdf",
+      "category": "tone",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "어조",
+        "성격"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_tone_personality_p001",
+      "parent_index": 1,
+      "child_index": 1,
+      "total_children": 1
+    }
+  }
+]

@@ -1,0 +1,189 @@
+/* ========================================
+ * 브레인스토밍 패널 (중앙 배치)
+ * ======================================== */
+#brainstorming-panel {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* 🔥 중앙 배치 */
+  width: 700px; /* 🔥 더 넓게 */
+  height: 700px; /* 🔥 정사각형에 가까운 비율 */
+  display: none; /* 초기에는 숨김 */
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: auto !important;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  z-index: 9998 !important;
+  border: 2px solid rgba(156, 175, 136, 0.3);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  isolation: isolate;
+}
+
+#brainstorming-panel {
+  pointer-events: auto !important;
+}
+
+#brainstorming-panel * {
+  pointer-events: auto !important;
+  cursor: default !important;
+}
+
+/* 🔥 스크롤 영역 명시적 활성화 */
+#bs-content,
+#bs-content * {
+  pointer-events: auto !important;
+}
+
+#brainstorming-panel h2 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+#bs-content {
+  flex: 1;
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+  padding: 20px; /* 🔥 여유 공간 증가 */
+  background: rgba(245, 245, 247, 0.9);
+  border-radius: 12px;
+  margin-bottom: 15px;
+  max-height: 580px; /* 🔥 고정 높이 (700px - 헤더 - 입력창) */
+  pointer-events: auto !important;
+  cursor: default !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+#bs-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+#bs-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+#bs-content::-webkit-scrollbar-thumb {
+  background: rgba(156, 175, 136, 0.3);
+  border-radius: 4px;
+}
+
+#bs-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 175, 136, 0.5);
+}
+
+.bs-message {
+  margin-bottom: 12px;
+  display: flex;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.bs-message.user {
+  justify-content: flex-end;
+}
+
+.bs-message.system,
+.bs-message.idea {
+  justify-content: flex-start;
+}
+
+.bs-message .bs-bubble {
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.5;
+  background: rgba(240, 240, 240, 0.95);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+}
+
+.bs-message.user .bs-bubble {
+  background: linear-gradient(135deg, rgba(156, 175, 136, 0.9), rgba(136, 155, 116, 0.9));
+  color: white;
+}
+
+.bs-message.idea .bs-bubble {
+  background: rgba(250, 250, 248, 0.95);
+  border-left: 4px solid rgba(156, 175, 136, 0.6);
+}
+
+/* ✨ 워밍업 질문 스타일 (굵고 중앙 정렬) */
+.bs-message.warmup {
+  justify-content: center;
+  text-align: center;
+}
+
+.bs-message.warmup .bs-bubble {
+  background: transparent;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  max-width: 90%;
+  padding: 8px 16px;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space: normal;
+  line-height: 1.6;
+}
+
+#bs-input-area {
+  display: flex;
+  gap: 10px;
+}
+
+#bs-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid rgba(156, 175, 136, 0.3);
+  border-radius: 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  outline: none;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#bs-input:focus {
+  border-color: rgba(156, 175, 136, 0.8);
+  box-shadow: 0 4px 12px rgba(156, 175, 136, 0.2);
+}
+
+#bs-submit-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(156, 175, 136, 0.9), rgba(136, 155, 116, 0.9));
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(156, 175, 136, 0.3);
+}
+
+#bs-submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(156, 175, 136, 0.4);
+}
+
+#bs-submit-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+#bs-submit-btn:disabled {
+  background: rgba(150, 150, 150, 0.6);
+  cursor: not-allowed;
+  transform: none;
+}
+

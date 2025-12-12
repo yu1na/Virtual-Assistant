@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Assistant</title>
+    <link rel="stylesheet" href="/static/Landing/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="landing-box">
+            <!-- 우측 상단 로그인 영역 -->
+            <div class="top-right-login">
+                <div class="login-trigger" id="loginTrigger">로그인</div>
+                <!-- 드롭다운 메뉴 (로그인 시 표시) -->
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <div class="dropdown-item" id="changeLoginBtn">다른 간편 로그인</div>
+                    <div class="dropdown-item" id="slackConnectBtn">Slack 연동하기</div>
+                    <div class="dropdown-item" id="notionConnectBtn">Notion 연동하기</div>
+                    <div class="dropdown-item" id="logoutBtn">로그아웃</div>
+                </div>
+            </div>
+
+            <!-- 메인 타이틀 -->
+            <div class="title-section">
+                <h1 class="app-title">VIRTUAL ASSISTANT</h1>
+                <p class="app-subtitle">AI 기반 데스크톱 비서</p>
+            </div>
+
+            <!-- 메인 버튼 -->
+            <div class="button-section">
+                <button class="primary-btn" id="startBtn">시작하기</button>
+            </div>
+
+            <!-- 사용 방법 안내 -->
+            <div class="guide-section">
+                <h3 class="guide-title">사용 방법</h3>
+                <div class="guide-content">
+                    <p class="guide-line"><strong>Cmd/Ctrl + Enter</strong> 채팅창 토글</p>
+                    <p class="guide-line"><strong>+/-</strong> 키로 크기 조절</p>
+                    <p class="guide-line"><strong>드래그</strong>로 위치 이동</p>
+                    <p class="guide-line"><strong>ESC</strong> 키로 프로그램 종료</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/Landing/script.js"></script>
+</body>
+</html>
+

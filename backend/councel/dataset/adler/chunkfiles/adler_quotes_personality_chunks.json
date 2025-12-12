@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adler_quotes_personality_p001",
+    "text": "Alfred Adler Quotes on Personality\n• “The only normal people are the ones you don't know very well.”\n• “Meanings are not determined by situations, but we determine ourselves by the meanings we give to\nsituations.”\n• “Empathy is seeing with the eyes of another, listening with the ears of another, and feeling with the\nheart of another.”\n• “We are influenced not by facts but by our interpretation of the facts.”",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_quotes_personality.pdf",
+      "category": "quotes",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 1,
+      "total_parents": 1,
+      "has_children": true,
+      "num_children": 1
+    }
+  },
+  {
+    "id": "adler_quotes_personality_p001_c001",
+    "text": "Alfred Adler Quotes on Personality\n• “The only normal people are the ones you don't know very well.”\n• “Meanings are not determined by situations, but we determine ourselves by the meanings we give to\nsituations.”\n• “Empathy is seeing with the eyes of another, listening with the ears of another, and feeling with the\nheart of another.”\n• “We are influenced not by facts but by our interpretation of the facts.”",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_quotes_personality.pdf",
+      "category": "quotes",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_quotes_personality_p001",
+      "parent_index": 1,
+      "child_index": 1,
+      "total_children": 1
+    }
+  }
+]

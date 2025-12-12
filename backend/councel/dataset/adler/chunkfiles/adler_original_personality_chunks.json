@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adler_original_personality_p001",
+    "text": "Adler’s Original Writings on Personality (Individual Psychology)\nAlfred Adler proposed that personality is shaped primarily by social factors and purposeful behavior.\nAccording to Individual Psychology, humans strive for significance and belonging, driven by the\nfundamental motivation known as the 'striving for superiority.'\nHe explained that lifestyle (Lebensstil) is formed early in childhood and becomes the core pattern that\nguides perception, thinking, feelings, and actions. Lifestyle is constructed through interpretation of life\nevents rather than predetermined.\nCentral concepts include inferiority feelings, encouragement, social interest, and goal-directed\nbehavior.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_original_personality.pdf",
+      "category": "original",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 1,
+      "total_parents": 1,
+      "has_children": true,
+      "num_children": 1
+    }
+  },
+  {
+    "id": "adler_original_personality_p001_c001",
+    "text": "Adler’s Original Writings on Personality (Individual Psychology)\nAlfred Adler proposed that personality is shaped primarily by social factors and purposeful behavior.\nAccording to Individual Psychology, humans strive for significance and belonging, driven by the\nfundamental motivation known as the 'striving for superiority.'\nHe explained that lifestyle (Lebensstil) is formed early in childhood and becomes the core pattern that\nguides perception, thinking, feelings, and actions. Lifestyle is constructed through interpretation of life\nevents rather than predetermined.\nCentral concepts include inferiority feelings, encouragement, social interest, and goal-directed\nbehavior.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_original_personality.pdf",
+      "category": "original",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_original_personality_p001",
+      "parent_index": 1,
+      "child_index": 1,
+      "total_children": 1
+    }
+  }
+]

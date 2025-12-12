@@ -1,0 +1,302 @@
+[
+  {
+    "id": "adler_qna_p001",
+    "text": "Q1. What is a common client question related to Adlerian Individual Psychology?\nA1. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ2. What is a common client question related to Adlerian Individual Psychology?\nA2. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ3. What is a common client question related to Adlerian Individual Psychology?\nA3. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ4. What is a common client question related to Adlerian Individual Psychology?\nA4. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ5. What is a common client question related to Adlerian Individual Psychology?\nA5. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ6. What is a common client question related to Adlerian Individual Psychology?\nA6. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ7. What is a common client question related to Adlerian Individual Psychology?\nA7. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ8. What is a common client question related to Adlerian Individual Psychology?\nA8. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 1,
+      "total_parents": 5,
+      "has_children": true,
+      "num_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p001_c001",
+    "text": "Q1. What is a common client question related to Adlerian Individual Psychology?\nA1. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ2. What is a common client question related to Adlerian Individual Psychology?\nA2. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ3. What is a common client question related to Adlerian Individual Psychology?\nA3. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ4. What is a common client question related to Adlerian Individual Psychology?\nA4. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ5. What is a common client question related to Adlerian Individual Psychology?\nA5. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ6. What is a common client question related to Adlerian Individual Psychology?\nA6. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ7. What is a common client question related to Adlerian Individual Psychology?\nA7. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ8. What is a common client question related to Adlerian Individual Psychology?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p001",
+      "parent_index": 1,
+      "child_index": 1,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p001_c002",
+    "text": "A8. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p001",
+      "parent_index": 1,
+      "child_index": 2,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p002",
+    "text": "Q9. What is a common client question related to Adlerian Individual Psychology?\nA9. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ10. What is a common client question related to Adlerian Individual Psychology?\nA10. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ11. What is a common client question related to Adlerian Individual Psychology?\nA11. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ12. What is a common client question related to Adlerian Individual Psychology?\nA12. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ13. What is a common client question related to Adlerian Individual Psychology?\nA13. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ14. What is a common client question related to Adlerian Individual Psychology?\nA14. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ15. What is a common client question related to Adlerian Individual Psychology?\nA15. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ16. What is a common client question related to Adlerian Individual Psychology?\nA16. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 2,
+      "total_parents": 5,
+      "has_children": true,
+      "num_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p002_c001",
+    "text": "Q9. What is a common client question related to Adlerian Individual Psychology?\nA9. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ10. What is a common client question related to Adlerian Individual Psychology?\nA10. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ11. What is a common client question related to Adlerian Individual Psychology?\nA11. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ12. What is a common client question related to Adlerian Individual Psychology?\nA12. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ13. What is a common client question related to Adlerian Individual Psychology?\nA13. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ14. What is a common client question related to Adlerian Individual Psychology?\nA14. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ15. What is a common client question related to Adlerian Individual Psychology?\nA15. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ16. What is a common client question related to Adlerian Individual Psychology?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p002",
+      "parent_index": 2,
+      "child_index": 1,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p002_c002",
+    "text": "A16. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p002",
+      "parent_index": 2,
+      "child_index": 2,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p003",
+    "text": "Q17. What is a common client question related to Adlerian Individual Psychology?\nA17. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ18. What is a common client question related to Adlerian Individual Psychology?\nA18. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ19. What is a common client question related to Adlerian Individual Psychology?\nA19. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ20. What is a common client question related to Adlerian Individual Psychology?\nA20. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ21. What is a common client question related to Adlerian Individual Psychology?\nA21. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ22. What is a common client question related to Adlerian Individual Psychology?\nA22. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ23. What is a common client question related to Adlerian Individual Psychology?\nA23. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ24. What is a common client question related to Adlerian Individual Psychology?\nA24. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 3,
+      "total_parents": 5,
+      "has_children": true,
+      "num_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p003_c001",
+    "text": "Q17. What is a common client question related to Adlerian Individual Psychology?\nA17. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ18. What is a common client question related to Adlerian Individual Psychology?\nA18. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ19. What is a common client question related to Adlerian Individual Psychology?\nA19. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ20. What is a common client question related to Adlerian Individual Psychology?\nA20. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ21. What is a common client question related to Adlerian Individual Psychology?\nA21. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ22. What is a common client question related to Adlerian Individual Psychology?\nA22. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ23. What is a common client question related to Adlerian Individual Psychology?\nA23. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ24. What is a common client question related to Adlerian Individual Psychology?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p003",
+      "parent_index": 3,
+      "child_index": 1,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p003_c002",
+    "text": "A24. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p003",
+      "parent_index": 3,
+      "child_index": 2,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p004",
+    "text": "Q25. What is a common client question related to Adlerian Individual Psychology?\nA25. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ26. What is a common client question related to Adlerian Individual Psychology?\nA26. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ27. What is a common client question related to Adlerian Individual Psychology?\nA27. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ28. What is a common client question related to Adlerian Individual Psychology?\nA28. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ29. What is a common client question related to Adlerian Individual Psychology?\nA29. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ30. What is a common client question related to Adlerian Individual Psychology?\nA30. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ31. What is a common client question related to Adlerian Individual Psychology?\nA31. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ32. What is a common client question related to Adlerian Individual Psychology?\nA32. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 4,
+      "total_parents": 5,
+      "has_children": true,
+      "num_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p004_c001",
+    "text": "Q25. What is a common client question related to Adlerian Individual Psychology?\nA25. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ26. What is a common client question related to Adlerian Individual Psychology?\nA26. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ27. What is a common client question related to Adlerian Individual Psychology?\nA27. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ28. What is a common client question related to Adlerian Individual Psychology?\nA28. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ29. What is a common client question related to Adlerian Individual Psychology?\nA29. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ30. What is a common client question related to Adlerian Individual Psychology?\nA30. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ31. What is a common client question related to Adlerian Individual Psychology?\nA31. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ32. What is a common client question related to Adlerian Individual Psychology?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p004",
+      "parent_index": 4,
+      "child_index": 1,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p004_c002",
+    "text": "A32. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p004",
+      "parent_index": 4,
+      "child_index": 2,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p005",
+    "text": "Q33. What is a common client question related to Adlerian Individual Psychology?\nA33. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ34. What is a common client question related to Adlerian Individual Psychology?\nA34. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ35. What is a common client question related to Adlerian Individual Psychology?\nA35. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ36. What is a common client question related to Adlerian Individual Psychology?\nA36. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ37. What is a common client question related to Adlerian Individual Psychology?\nA37. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ38. What is a common client question related to Adlerian Individual Psychology?\nA38. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ39. What is a common client question related to Adlerian Individual Psychology?\nA39. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ40. What is a common client question related to Adlerian Individual Psychology?\nA40. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "parent",
+      "parent_index": 5,
+      "total_parents": 5,
+      "has_children": true,
+      "num_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p005_c001",
+    "text": "Q33. What is a common client question related to Adlerian Individual Psychology?\nA33. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ34. What is a common client question related to Adlerian Individual Psychology?\nA34. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ35. What is a common client question related to Adlerian Individual Psychology?\nA35. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ36. What is a common client question related to Adlerian Individual Psychology?\nA36. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ37. What is a common client question related to Adlerian Individual Psychology?\nA37. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ38. What is a common client question related to Adlerian Individual Psychology?\nA38. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ39. What is a common client question related to Adlerian Individual Psychology?\nA39. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.\nQ40. What is a common client question related to Adlerian Individual Psychology?",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p005",
+      "parent_index": 5,
+      "child_index": 1,
+      "total_children": 2
+    }
+  },
+  {
+    "id": "adler_qna_p005_c002",
+    "text": "A40. In Adlerian counseling, clients often ask about personal responsibility, lifestyle patterns, feelings of\ninferiority, and how to create meaningful goals aligned with social interest. An Adlerian response\ntypically emphasizes encouragement, insight into lifestyle, and collaborative goal-setting.",
+    "metadata": {
+      "author": "Adler",
+      "source": "adler_qna.pdf",
+      "category": "qna",
+      "topic": "individual psychology",
+      "tags": [
+        "아들러",
+        "질의응답",
+        "FAQ"
+      ],
+      "chunk_type": "child",
+      "parent_id": "adler_qna_p005",
+      "parent_index": 5,
+      "child_index": 2,
+      "total_children": 2
+    }
+  }
+]

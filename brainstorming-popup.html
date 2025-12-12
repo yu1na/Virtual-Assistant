@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>브레인스토밍</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="renderer/styles/brainstorming.css" />
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #f5f5f5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    /* 드래그 가능한 상단 바 */
+    .titlebar {
+      -webkit-app-region: drag;
+      background: linear-gradient(135deg, #9CAF88 0%, #7a9b6d 100%);
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px;
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .titlebar-title {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .titlebar-buttons {
+      -webkit-app-region: no-drag;
+      display: flex;
+      gap: 8px;
+    }
+    
+    .titlebar-btn {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    
+    .titlebar-btn:hover {
+      opacity: 0.8;
+    }
+    
+    .btn-close {
+      background: #ff5f57;
+    }
+    
+    .btn-minimize {
+      background: #ffbd2e;
+    }
+    
+    .btn-maximize {
+      background: #28ca42;
+    }
+    
+    #brainstorming-panel {
+      position: static !important;
+      width: 100% !important;
+      height: calc(100% - 32px) !important;
+      display: flex !important;
+      border: none !important;
+      border-radius: 0 !important;
+      transform: none !important;
+      left: auto !important;
+      top: auto !important;
+      box-shadow: none !important;
+    }
+    
+    /* 헤더 숨기기 (타이틀바에 이미 있음) */
+    #brainstorming-panel h2 {
+      display: none !important;
+    }
+    
+    /* 콘텐츠 영역 높이 조정 */
+    #bs-content {
+      max-height: none !important;
+      flex: 1 !important;
+    }
+    
+    /* 입력 영역 */
+    #bs-input-area {
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 커스텀 타이틀바 -->
+  <div class="titlebar">
+    <div class="titlebar-title">
+      💡 브레인스토밍
+    </div>
+    <div class="titlebar-buttons">
+      <button class="titlebar-btn btn-close" onclick="window.close()"></button>
+      <button class="titlebar-btn btn-minimize" onclick="require('electron').remote.getCurrentWindow().minimize()"></button>
+      <button class="titlebar-btn btn-maximize" onclick="toggleMaximize()"></button>
+    </div>
+  </div>
+
+  <!-- 브레인스토밍 패널 (전체 화면) -->
+  <div id="brainstorming-panel">
+    <h2>💡 브레인스토밍</h2>
+    
+    <!-- 💾 저장된 아이디어 버튼 영역 -->
+    <div id="saved-ideas-header" style="
+      padding: 12px 20px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-bottom: 1px solid #dee2e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+      <button id="toggle-saved-ideas-btn" style="
+        background: #6B9080;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all 0.2s;
+        box-shadow: 0 2px 8px rgba(107, 144, 128, 0.3);
+      ">
+        💾 저장된 아이디어 보기
+      </button>
+    </div>
+    
+    <!-- 저장된 아이디어 목록 (접힘/펼침) -->
+    <div id="saved-ideas-list" style="
+      display: none;
+      max-height: 300px;
+      overflow-y: auto;
+      background: white;
+      border-bottom: 2px solid #9CAF88;
+    ">
+      <!-- 여기에 아이디어 목록이 동적으로 추가됨 -->
+    </div>
+    
+    <div id="bs-content"></div>
+    <div id="bs-input-area">
+      <input 
+        type="text" 
+        id="bs-input" 
+        placeholder="입력하세요..." 
+        autocomplete="off"
+      />
+      <button id="bs-submit-btn">전송</button>
+    </div>
+  </div>
+
+  <!-- 브레인스토밍 서비스 스크립트 -->
+  <script type="module">
+    import { initBrainstormingPanel, getCurrentSessionId } from './renderer/brainstorming/brainstormingService.js';
+    
+    // 페이지 로드 시 자동 초기화
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('🧠 브레인스토밍 팝업 초기화');
+      initBrainstormingPanel();
+    });
+    
+    // getCurrentSessionId를 전역으로 노출 (Electron에서 접근 가능하도록)
+    window.getCurrentSessionId = getCurrentSessionId;
+    
+    // 최대화 토글
+    function toggleMaximize() {
+      const { ipcRenderer } = require('electron');
+      ipcRenderer.send('toggle-brainstorming-maximize');
+    }
+    
+    // 전역으로 노출
+    window.toggleMaximize = toggleMaximize;
+  </script>
+  
+  <!-- F12 단축키 처리 (별도 스크립트) -->
+  <script>
+    const { ipcRenderer } = require('electron');
+    
+    // F12 키 이벤트 리스너
+    document.addEventListener('keydown', (e) => {
+      // F12 또는 Ctrl+Shift+I
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+        
+        // 메인 프로세스에 개발자 도구 토글 요청
+        ipcRenderer.send('toggle-brainstorming-devtools');
+        console.log('🛠️ 개발자 도구 토글 요청');
+      }
+    });
+    
+    console.log('✅ F12 키 리스너 등록 완료');
+  </script>
+</body>
+</html>
+

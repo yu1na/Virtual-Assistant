@@ -1,0 +1,327 @@
+/* ========================================
+ * 채팅 패널 (왼쪽 고정)
+ * ======================================== */
+#chat-panel {
+  position: fixed;
+  left: 20px;
+  top: 5vh;
+  width: 525px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: auto !important;
+  /* 🔥 채팅 패널은 무조건 클릭 가능 */
+  background: rgba(255, 255, 255, 0.95);
+  /* 🔥 95% 불투명 흰색 */
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  /* 블러 효과 */
+  z-index: 9999 !important;
+  /* 🔥 최상위 레이어 */
+  border: 2px solid rgba(156, 175, 136, 0.3);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  isolation: isolate;
+  /* 새로운 stacking context 생성 */
+}
+
+#chat-panel,
+#chat-panel * {
+  pointer-events: auto !important;
+  /* 🔥 모든 하위 요소도 클릭 가능 */
+  cursor: default !important;
+}
+
+#chat-input,
+#send-btn {
+  cursor: text !important;
+}
+
+#send-btn {
+  cursor: pointer !important;
+}
+
+#chat-panel h2 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+/* 메시지 컨테이너 */
+#messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background: rgba(245, 245, 247, 0.9);
+  /* 🔥 90% 불투명 밝은 회색 */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* 스크롤바 스타일 */
+#messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+#messages::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+#messages::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 메시지 스타일 */
+.message {
+  margin-bottom: 12px;
+  display: flex;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message.assistant {
+  justify-content: flex-start;
+}
+
+.message .bubble {
+  max-width: 75%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.5;
+  background: rgba(240, 240, 240, 0.95);
+  /* 🔥 95% 불투명 밝은 회색 */
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message.user .bubble {
+  background: linear-gradient(135deg, rgba(156, 175, 136, 0.9), rgba(136, 155, 116, 0.9));
+  /* 🔥 카키 색상 */
+  color: white;
+}
+
+/* 입력 영역 */
+#input-area {
+  display: flex;
+  gap: 10px;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid rgba(156, 175, 136, 0.3);
+  border-radius: 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  /* 🔥 90% 불투명 */
+  color: #333;
+  outline: none;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#chat-input:focus {
+  border-color: rgba(156, 175, 136, 0.8);
+  box-shadow: 0 4px 12px rgba(156, 175, 136, 0.2);
+}
+
+#send-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(156, 175, 136, 0.9), rgba(136, 155, 116, 0.9));
+  /* 🔥 카키 색상 */
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(156, 175, 136, 0.3);
+}
+
+#send-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(156, 175, 136, 0.4);
+}
+
+#send-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+#send-btn:disabled {
+  background: rgba(150, 150, 150, 0.6);
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ========================================
+ * 심리 상담 메시지 스타일 (아들러 페르소나)
+ * ======================================== */
+.message.therapy {
+  align-items: flex-start;
+}
+
+.therapy-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  margin-top: 8px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.therapy-bubble {
+  background: linear-gradient(135deg, rgba(255, 230, 200, 0.9), rgba(255, 240, 220, 0.9)) !important;
+  border-left: 4px solid rgba(200, 150, 100, 0.6);
+  box-shadow: 0 3px 12px rgba(200, 150, 100, 0.2) !important;
+  font-style: italic;
+  position: relative;
+}
+
+.therapy-bubble::before {
+  content: '💭';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+/* ========================================
+ * 리사이즈 핸들
+ * ======================================== */
+.resize-handle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: nwse-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgba(156, 175, 136, 0.6);
+  user-select: none;
+  z-index: 10;
+  transition: color 0.2s;
+}
+
+.resize-handle:hover {
+  color: rgba(156, 175, 136, 1);
+}
+
+/* ========================================
+ * Markdown 스타일 (HR RAG 전용)
+ * ======================================== */
+.message.rag .bubble h1,
+.message.rag .bubble h2,
+.message.rag .bubble h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.message.rag .bubble h1 {
+  font-size: 1.4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 4px;
+}
+
+.message.rag .bubble h2 {
+  font-size: 1.2em;
+}
+
+.message.rag .bubble h3 {
+  font-size: 1.1em;
+}
+
+.message.rag .bubble p {
+  margin-bottom: 8px;
+}
+
+.message.rag .bubble ul,
+.message.rag .bubble ol {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+
+.message.rag .bubble li {
+  margin-bottom: 4px;
+}
+
+.message.rag .bubble strong,
+.message.rag .bubble b {
+  font-weight: 700;
+  color: #2c3e50;
+  /* 약간 진한 색상으로 강조 */
+}
+
+.message.rag .bubble code {
+  background: rgba(0, 0, 0, 0.06);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.message.rag .bubble pre {
+  background: rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 8px;
+}
+
+.message.rag .bubble pre code {
+  background: none;
+  padding: 0;
+}
+
+.message.rag .bubble a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.message.rag .bubble a:hover {
+  text-decoration: underline;
+}
